@@ -3,6 +3,8 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
+const basePath = '/TMPL'
+
 export default function LoveInSyracuseEssay() {
   return (
     <>          
