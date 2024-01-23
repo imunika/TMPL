@@ -2,6 +2,10 @@
 import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig.basePath || '';
 
 export default function WorldLostEssay() {
   return (
@@ -17,8 +21,8 @@ export default function WorldLostEssay() {
             A World Lost
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/khadija_sharif.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/khadija_sharif" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Khadija Sharif</a></div>
+              <div><img src={`${basePath}/images/headshots/khadija_sharif.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/khadija_sharif" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Khadija Sharif</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3]">
@@ -47,7 +51,7 @@ export default function WorldLostEssay() {
                   <p>There are days when the sky opens up and lets droplet drips</p>
                   <p>And it’s these days is when we say the prayer</p>
                   <br />
-                  <img src="images/works/a-world-lost/a_world_lost_prayer.jpg" alt="" className="w-[50%]"/>
+                  <img src={`${basePath}/images/works/a-world-lost/a_world_lost_prayer.jpg`} alt="" className="w-[50%]"/>
                   <br />
                   <p>Allahumma hawalaina wala ‘alaina</p>
                   <br />
