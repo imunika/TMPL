@@ -5,7 +5,7 @@ export default function HomePage() {
     <>
       {/* Hero section */}
       <section className="bg-gradient-to-b from-stone-500 to-stone-600 h-screen relative">
-        <img src="/images/TMPL_SU.jpg" className="w-full h-full object-cover absolute mix-blend-overlay" />
+        <img src="images/TMPL_SU.jpg" className="w-full h-full object-cover absolute mix-blend-overlay" />
         <div className="lg-px-10 lg:p-40 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
           <h1 className="text-white text-center px-20 pt-14 my-10 font-italiana font-extralight text-2xl md:text-3xl lg:text-5xl relative">
           Reflections on 
