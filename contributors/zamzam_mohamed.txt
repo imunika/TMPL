@@ -22,7 +22,7 @@ f:HL["/TMPL/_next/static/media/8db47a8bf03b7d2f-s.p.woff2",{"as":"font","type":"
 16:HL["/TMPL/_next/static/media/ea50c9106938827e-s.p.woff2",{"as":"font","type":"font/woff2"}]
 17:HL["/TMPL/_next/static/media/ee6c11de60ed7163-s.p.woff2",{"as":"font","type":"font/woff2"}]
 18:HL["/TMPL/_next/static/css/01e45fa89b9176f0.css",{"as":"style"}]
-0:["gj4zWg6pY0yq2fyb0fvff",[[["",{"children":["contributors",{"children":[["slug","zamzam_mohamed","d"],{"children":["__PAGE__?{\"slug\":\"zamzam_mohamed\"}",{}]}]}]},"$undefined","$undefined",true],"$L19",[[["$","link","0",{"rel":"stylesheet","href":"/TMPL/_next/static/css/01e45fa89b9176f0.css","precedence":"next"}]],"$L1a"]]]]
+0:["V389aYbxPq-WRLx3_CoAE",[[["",{"children":["contributors",{"children":[["slug","zamzam_mohamed","d"],{"children":["__PAGE__?{\"slug\":\"zamzam_mohamed\"}",{}]}]}]},"$undefined","$undefined",true],"$L19",[[["$","link","0",{"rel":"stylesheet","href":"/TMPL/_next/static/css/01e45fa89b9176f0.css","precedence":"next"}]],"$L1a"]]]]
 1b:I{"id":6685,"chunks":["685:static/chunks/685-6035230facd5764c.js","185:static/chunks/app/layout-6677eb80c248a702.js"],"name":"","async":false}
 1c:I{"id":7767,"chunks":["272:static/chunks/webpack-6662cb5f80ffbd84.js","971:static/chunks/fd9d1056-4691c648476250ad.js","596:static/chunks/596-f615e04f304f0778.js"],"name":"default","async":false}
 1d:I{"id":7920,"chunks":["272:static/chunks/webpack-6662cb5f80ffbd84.js","971:static/chunks/fd9d1056-4691c648476250ad.js","596:static/chunks/596-f615e04f304f0778.js"],"name":"default","async":false}
