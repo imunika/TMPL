@@ -3,7 +3,7 @@ module.exports = {
   output: 'export',
   images: {
     loader: "akamai",
-    path: "",
+    path: "/TMPL",
   },
   basePath: '/TMPL',
   assetPrefix: '/TMPL',
