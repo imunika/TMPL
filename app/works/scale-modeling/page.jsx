@@ -17,7 +17,7 @@ export default function ScaleModelingEssay() {
               Scale Modeling: The Climate of Rina Banerjee’s “A World Lost…”
             </h1>
             <div className="flex items-center">
-              <div><img src="/images/headshots/mike_goode.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div><img src="images/headshots/mike_goode.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
               <div>by <a href="/contributors/mike_goode" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Mike Goode</a></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
@@ -31,7 +31,7 @@ export default function ScaleModelingEssay() {
                 </p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/scale-modeling/fig1.jpg" alt="" className="w-[70%]" />
+                  <img src="images/works/scale-modeling/fig1.jpg" alt="" className="w-[70%]" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 1. Rina Banerjee, <i>A World Lost</i>, 2013. Black synthetic horns, wire, netting, lightbulbs, scale, ostrich eggs, textiles, cowrie shells, pebbles, coins, feathers, fish vertebrae, greenery, coral, glass birds, miniature human and animal figurines, plastic cups, and red thread. Syracuse University Art Museum. Artist’s Collection, New York City.
                     </figcaption> 
@@ -50,7 +50,7 @@ export default function ScaleModelingEssay() {
                 <p className="indent-16">To reckon politically and affectively with anthropogenic climate change always involves wrestling with problems of scale, and this is a project with which sculpture can sometimes help. Climate change takes place on a planetary scale, and its mitigation must too. Thinking and acting at such a scale requires regarding oneself less as an individual than as an insignificant member of a biological population of billions whom one will never meet. This can be challenging and even uncomfortable. Doing so requires a degree of estrangement from one’s “world,” or at least from one’s sense of being at home. Spending some time contemplating and feeling for a strange, miniature world on a gallery floor can produce a version of this estrangement. The fact that some of the miniature animal figures roaming Banerjee’s <i>A World Lost…</i> depict familiar, endangered species like tigers and polar bears only adds to the sense of bewilderment, though it also reinforces a different kind of scalar problem (fig. 2). Among the many intellectual, representational, and affective challenges that climate change poses is that the most potentially devastating part of the mass extinction it has set in motion is also the hardest for humanity to witness. The destruction of biodiversity on micro-organic scales ultimately poses graver challenges to the future health of the biosphere than the decline of the megafauna that typically appear on the pages of Sierra Club advertisements.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/scale-modeling/fig2.jpg" alt="" className="w-[70%]" />
+                  <img src="images/works/scale-modeling/fig2.jpg" alt="" className="w-[70%]" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 2. Rina Banerjee, detail, <i>A World Lost</i>, 2013. Syracuse University Art Museum. Artist’s Collection, New York City.
                     </figcaption>
@@ -63,7 +63,7 @@ export default function ScaleModelingEssay() {
                 <p>One physically substantial component of <i>A World Lost…</i> that persists across each of its iterations is an antique scale, which hangs from the base of the sculpture’s inverted metal dome, making it an unmissable part of the work’s central vertical axis (fig. 3). In a public conversation with Banerjee in the Syracuse University Art Museum in March 2023, she recounted that the type of scale, a pan balance, carries personal associations for her of visiting marketplaces in India with her mother. Certainly, the viewer recognizes <i>A World Lost…</i>’s pan scale as a commercial one due to the presence of a plastic gold bullion bar in one of its pans. In the context of a sculpture that engages with histories of injustice bound up with enduring practices of ecological harm, however, the pan scale’s commercial associations end up entangled with its more general cultural power to conjure up and conceptualize “justice.” According to a symbolic tradition that endures into the present from ancient Egypt and Greece, a balanced pan scale signifies the dual ethical demand to weigh sides of a case equally and to find punishments that exactly counteract harms. Banerjee’s version of this emblem reads as critique or even parody of this idea. The incongruous objects juxtaposed on her scale’s two pans&mdash;on one side: fake gold bullion, ostrich egg, pedestal, glass eyes, and mohair wool; on the other: ostrich egg, feathers, coral, silver-plated bowl, and more mohair&mdash;are so blatantly non-equivalent that they do less to prop up balanced exchanges and retributive justice as desirable ideals than to conjure up the accounting manipulations and legal fictions that underwrite most of our fantasies of “balance.” In the context of a sculpture so engaged with the scalar challenges of anthropogenic climate change, a planetary event whose tipping point has already passed, the overall effect is to expose balanced scales as just another outmoded object in a world that teems with cast-off consumer goods and relatively worthless things. In the face of climate change, the very notion of “balance” as an ecological and cultural ideal looks antique. Anthropogenic climate change leaves so many of our conceptual scales hanging by precarious threads.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/scale-modeling/fig3.jpg" alt="" />
+                  <img src="images/works/scale-modeling/fig3.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 3. Rina Banerjee, detail, <i>A World Lost</i>, 2013. Syracuse University Art Museum. Artist’s Collection, New York City.
                     </figcaption>

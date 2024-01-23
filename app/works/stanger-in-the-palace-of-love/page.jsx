@@ -17,7 +17,7 @@ export default function WorldLostEssay() {
               Stranger in the Palace of Love
             </h1>
             <div className="flex items-center">
-              <div><img src="/images/headshots/lawrence_chua.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div><img src="images/headshots/lawrence_chua.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
               <div>by <a href="/contributors/lawrence_chua" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Lawrence Chua</a></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
@@ -48,7 +48,7 @@ export default function WorldLostEssay() {
                 </blockquote>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/stanger-in-the-palace-of-love/fig1.jpg" alt="" />
+                  <img src="images/works/stanger-in-the-palace-of-love/fig1.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 1. E. B. Havell, <i>A Handbook to Agra and the Taj: Sikandra, Fatehpur-Sikri and the Neighbourhood</i>. Calcutta: Thacker and Spink, 1924, 2nd edition.
                     </figcaption>
@@ -60,14 +60,14 @@ export default function WorldLostEssay() {
                 <br />
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/stanger-in-the-palace-of-love/fig2.jpg" alt="" />
+                  <img src="images/works/stanger-in-the-palace-of-love/fig2.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 2. Rina Banerjee, <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, 2003. Plastic, antique Anglo-Indian Bombay dark wood chair, steel and copper framework, floral picks, foam balls, cowry shells, quilting pins, red colored moss, antique stone globe, glass, synthetic fabric, shells, fake birds. Artist’s collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption>
                 </div>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/stanger-in-the-palace-of-love/fig3.jpg" alt="" />
+                  <img src="images/works/stanger-in-the-palace-of-love/fig3.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 3. Detail, Rina Banerjee, <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, 2003. Artist’s collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption>
@@ -82,7 +82,7 @@ export default function WorldLostEssay() {
                 </blockquote>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/stanger-in-the-palace-of-love/fig4.jpg" alt="" />
+                  <img src="images/works/stanger-in-the-palace-of-love/fig4.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 4. Taj Mahal, Agra, India, 1631- 1643 © <a href="https://commons.wikimedia.org/wiki/User:Yann" target="_blank">Yann Forget</a>/<a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons</a>/<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA</a>
                     </figcaption>

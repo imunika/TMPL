@@ -17,7 +17,7 @@ export default function WorldLostEssay() {
               <i>A World Lost</i>: Climate, Policy, and Art
             </h1>
             <div className="flex items-center">
-              <div><img src="/images/headshots/david_driesen.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div><img src="images/headshots/david_driesen.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
               <div>by <a href="/contributors/david_driesen" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">David M. Driesen</a></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
@@ -32,7 +32,7 @@ export default function WorldLostEssay() {
                 <p className="indent-16">First of all, there is the matter of temporal perspective. The science that policymakers focus on the most is future oriented. It aims to predict the types and magnitudes of consequences that might occur if global warming continues unabated. It is based on observations of the past (data), but the data is then assembled into computer models that have equations embodying what we might know about interrelationships between warming and the behavior of earth systems. The models then make future predictions about the type and extent of consequences of continued warming. Policy experts’ work also looks forward, proposing measures now that can have an impact in ameliorating the climate crisis going froward. My own work focuses a lot on economic incentive schemes, such as emissions trading.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/a-world-lost-climate-policy-art/fig1.jpg" alt="" />
+                  <img src="images/works/a-world-lost-climate-policy-art/fig1.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 1. Rina Banerjee, <i>A World Lost</i>, 2013. Black synthetic horns, wire, netting, lightbulbs, scale, ostrich eggs, textiles, cowrie shells, pebbles, coins, feathers, fish vertebrae, greenery, coral, glass birds, miniature human and animal figurines, plastic cups, and red thread. Syracuse University Art Museum. Artist’s Collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption> 
@@ -43,7 +43,7 @@ export default function WorldLostEssay() {
                 <p className="indent-16">Then comes the problem of selection. Global climate disruption is a multifaceted phenomenon. When I first began teaching this in the 1990s, practically all my colleagues would speak of different new revelations in the scientific literature regarding the likely effects of climate disruption when we met. Global warming was, and remains, dizzying in the breadth and sheer numerosity of its consequences. The litany in my articles usually mentions floods and inundation of coastal areas, the spread of infectious disease, widespread drought, species loss and heat waves. But that description leaves out a lot. Scientists tend to solve the description problem by trying to comprehensively list all of the facts, which makes the subject overwhelming and incomprehensible to most people. Economists solve this by reducing as many of the consequences as possible into dollar terms, an approach that proves deeply misguided, as the most important aspects of the problem resist valuation in those terms.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/a-world-lost-climate-policy-art/fig2.jpg" alt="" className="w-[70%]" />
+                  <img src="images/works/a-world-lost-climate-policy-art/fig2.jpg" alt="" className="w-[70%]" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 2. Rina Banerjee, detail, <i>A World Lost</i>, 2013. Artist’s Collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption> 
@@ -52,7 +52,7 @@ export default function WorldLostEssay() {
                 <p className="indent-16"><i>A World Lost</i>, at least in its Syracuse incarnation, focuses heavily on the problem of sea level rise. It has seashells arranged along the periphery, but one has the impression that the sea has taken over and overwhelmed everything else (fig. 3). Sea level rise is one of the most central and certain consequences of global warming, caused by both melting ice caps and the thermal expansion of the ocean. Depicting it visually or describing what it means is hard. First of all, eventually it can simply mean that coastal cities go underwater. But in the meantime, one sees things like intense flooding after hurricanes pass through, the sidewalks of Fort Lauderdale being inundated almost all of the time, not just after heavy rains, and beaches slowly disappearing. <i>A World Lost</i> depicts sea level rise mainly be the use of negative space leaving a remnant of something that resembles land surrounded by an advanced sea.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="/images/works/a-world-lost-climate-policy-art/fig3.jpg" alt="" />
+                  <img src="images/works/a-world-lost-climate-policy-art/fig3.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 3. Rina Banerjee, detail, <i>A World Lost</i>, 2013. Artist’s Collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption> 

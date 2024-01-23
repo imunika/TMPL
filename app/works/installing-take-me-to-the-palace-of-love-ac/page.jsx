@@ -6,13 +6,13 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 
 const slides = [
-  "/images/works/installing-take-me-to-the-palace-of-love-ac/fig1.jpg",
-  // "/images/works/installing-take-me-to-the-palace-of-love-ac/fig2.jpg",
-  // "/images/works/installing-take-me-to-the-palace-of-love-ac/fig3.jpg",
-  // "/images/works/installing-take-me-to-the-palace-of-love-ac/fig4.jpg",
-  "/images/works/installing-take-me-to-the-palace-of-love-ac/fig5.jpg",
-  // "/images/works/installing-take-me-to-the-palace-of-love-ac/fig6.jpg",
-  // "/images/works/installing-take-me-to-the-palace-of-love-ac/fig7.jpg",
+  "images/works/installing-take-me-to-the-palace-of-love-ac/fig1.jpg",
+  // "images/works/installing-take-me-to-the-palace-of-love-ac/fig2.jpg",
+  // "images/works/installing-take-me-to-the-palace-of-love-ac/fig3.jpg",
+  // "images/works/installing-take-me-to-the-palace-of-love-ac/fig4.jpg",
+  "images/works/installing-take-me-to-the-palace-of-love-ac/fig5.jpg",
+  // "images/works/installing-take-me-to-the-palace-of-love-ac/fig6.jpg",
+  // "images/works/installing-take-me-to-the-palace-of-love-ac/fig7.jpg",
 ]
 
 export default function InstallingPalaceLoveEssayAC() {
@@ -29,7 +29,7 @@ export default function InstallingPalaceLoveEssayAC() {
             Behind the Scenes: Installing <i>Take Me to the Palace of Love</i>
             </h1>
             <div className="flex items-center">
-              <div><img src="/images/headshots/abby_campanaro.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div><img src="images/headshots/abby_campanaro.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
               <div>by <a href="/contributors/abby_campanaro" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Abby Campanaro</a></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">

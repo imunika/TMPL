@@ -17,13 +17,13 @@ export default function InstallingPalaceLoveEssayJN() {
             Behind the Scenes: Installing <i>Take Me to the Palace of Love</i>
             </h1>
             <div className="flex items-center">
-              <div><img src="/images/headshots/julia_neufeld.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div><img src="images/headshots/julia_neufeld.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
               <div>by <a href="/contributors/julia_neufeld" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Julia Neufeld</a></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3]">
                 <div  className="mt-10 flex flex-col justify-center items-center">
-                  <img src="/images/works/installing-take-me-to-the-palace-of-love-jn/fig1.jpg" alt="" />
+                  <img src="images/works/installing-take-me-to-the-palace-of-love-jn/fig1.jpg" alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     </figcaption> 
                 </div>

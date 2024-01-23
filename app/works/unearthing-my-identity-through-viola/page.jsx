@@ -17,7 +17,7 @@ export default function WorldLostEssay() {
             Unearthing my Identity through Viola
             </h1>
             <div className="flex items-center">
-              <div><img src="/images/headshots/zamzam_mohamed.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div><img src="images/headshots/zamzam_mohamed.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
               <div>by <a href="/contributors/zamzam_mohamed" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Zamzam Mohamed</a></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
