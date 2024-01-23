@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
 
+const basePath = '/TMPL'
+
 export default function Accordion(props) {
   const [item, setItem] = useState(props.data);
   const handletoggleActive = () => {
@@ -19,7 +21,7 @@ export default function Accordion(props) {
         </div>
       </div>
       <div className="overflow-hidden max-h-0 duration-1000 group-[.is-active]:max-h-[250px]">
-        <img src={item.author_headshot} alt="" className="w-16 h-16 float-left mr-4 m-1" />
+        <img src={`${basePath}/${item.author_headshot}`} alt="" className="w-16 h-16 float-left mr-4 m-1" />
         <div className="mb-3 font-extralight text-sm">
           by <Link href={item.contributor} className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">{item.author_name}</Link>
         </div>

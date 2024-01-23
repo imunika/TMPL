@@ -1,6 +1,8 @@
 import Heading from '../../components/Heading';
 import records from 'src/records.json'
 
+const basePath = '/TMPL'
+
 // Generate segments for both [category] and [product]
 export async function generateStaticParams() { 
   return records.map((record) => ({
@@ -16,7 +18,7 @@ export default function ContributorsPage({ params: {slug} }) {
       <div className="grid grid-cols-4 bg-[rgba(190,58,59,0.03)] mb-6">
         <div></div>
         <div className="mb-6 md:col-span-2 col-span-4">
-          <img src={item.author_headshot} className="mt-6 p-2 mx-auto w-72 h-72" alt="" />
+          <img src={`${basePath}/${item.author_headshot}`} className="mt-6 p-2 mx-auto w-72 h-72" alt="" />
           <h2 className="p-2 text-center text-slate-700 font-light font-taviraj text-2xl mb-10">{item.author_name}</h2>
           <div dangerouslySetInnerHTML={{ __html: item.bio }} />
         </div>
