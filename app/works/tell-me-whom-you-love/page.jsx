@@ -17,8 +17,8 @@ export default function WorldLostEssay() {
             “Tell Me Whom You Love”: ‘Mixed’ Marriage & Racial Mutability
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/joan_bryant.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/joan_bryant" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Joan Bryant</a></div>
+              <div><img src={`${basePath}/images/headshots/joan_bryant.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/joan_bryant" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Joan Bryant</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3]">
@@ -31,7 +31,7 @@ export default function WorldLostEssay() {
                 </p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig1.jpg" alt="" />
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig1.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 1. Rina Banerjee, <i>Viola, from New Orleans…</i>, 2017. Murano glass horns, Indian rakes, seed beads, steel, Yoruba African mask, oyster shells, cowrie shells, Charlotte dolls, polyester horse hair trim, Korean silks, Indian silks, vintage Kashmir shawls, French wire ferris wheel, Congolese elbow bangles, colonial mirror sconces, Japanese seed glass beads, sequins, threads. Courtesy of the Pennsylvania Academy of the Fine Art, Philadelphia. Museum Purchase, 2017.53. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption>
@@ -40,14 +40,14 @@ export default function WorldLostEssay() {
                 <p className="indent-16">Banerjee’s work reflects on one relationship&mdash;the union of twenty-two-year-old Viola Ida Lewis, a woman of African descent, and Joseph Abdin (figs. 2 and 3). The couple married in 1906, two years after the forty-five-year-old Bengali native reached the United States.<sup><Link href="#fn2" id="ref2" class="anchor">2</Link></sup>  Banerjee’s imagined Viola is awkward. The figure appears to have been rendered grotesque by her associations with immigrants. Tokens of her connections&mdash;a Yoruba mask, Indian rakes and silks, cowrie shells, and Italian glass horns extending like elephant tusks&mdash;are attached to her. Indeed, they constitute her body as if to display the profound impact of “making home for aliens” on her identity. The ungainly form makes one wonder whether the relationships she developed were so unnatural that sustaining them deformed her.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig2.jpg" alt="" className="w-[70%]" />
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig2.jpg`} alt="" className="w-[70%]" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 2. Viola Ida Lewis.
                     </figcaption>
                 </div>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig3.jpg" alt="" className="w-[70%]" />
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig3.jpg`} alt="" className="w-[70%]" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 3. Joseph Abdin.
                     </figcaption>
@@ -56,7 +56,7 @@ export default function WorldLostEssay() {
                 <p className="indent-16">The work’s long title expands and complicates Viola’s identity. While acknowledging New Orleans as her home, it peremptorily declares her “African.” The label is perhaps an ancestral justification for the mask that represents her face (fig. 4). Yet, it also seems to explain her alliances. As a timeless African, the Mississippi native might comfortably relate to the immigrants she engaged. The narrative alludes to possible memories of slavery as it describes Viola’s empathy for Bengali men transported to American shores. Surely, she was mindful of their suffering, “how they been also starved, fled from servitude and colonial dangers, ships like dungeons.”</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig4.jpg" alt="" />
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig4.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 4. Rina Banerjee, detail, <i>Viola, from New Orleans…</i>, 2017. Courtesy of the Pennsylvania Academy of the Fine Art, Philadelphia. Museum Purchase, 2017.53. Photograph courtesy of Syracuse University Art Museum.
                     </figcaption>
@@ -67,7 +67,7 @@ export default function WorldLostEssay() {
                 <p className="indent-16">Racial change accompanied Viola and Joseph’s marriage. By 1910, they had a young son and infant daughter, and Joseph, a peddler of “Oriental Goods” in New Orleans, was the named head of Viola’s extended family. Her mother Sophie, a possible step-sister with four children, and a grand-niece were part of the household. Viola and Joseph’s racial identities fused under this living arrangement. The census enumerator designated him “Mulatto,” along with everyone else in the household, except Sophie, who was labeled “Black” (fig. 5). The census taker documented Joseph’s birthplace as “India-Hindi,” but the bureau’s forms contained no coherent way to match his origins with official definitions of “color or race.” Enumerators had the option of listing individuals as “Other,” but Joseph’s relationships perhaps sufficed as grounds for numbering him among “persons having some proportion or perceptible trace of negro blood.” The family’s neighbor Sing Lee, a seller of “Chinese goods” who was also married to a Mulatto woman, avoided the transformation Joseph experienced. Concerted government efforts to block, regulate, and monitor immigration from China made “Chinese” a discrete “color or race” that census takers could document.<sup><Link href="#fn3" id="ref3" class="anchor">3</Link></sup></p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig5.jpg" alt="" className="w-[70%]" />
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig5.jpg`} alt="" className="w-[70%]" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 5. Sophie Lewis Broninlnam, Viola’s mother.
                     </figcaption>
@@ -76,7 +76,7 @@ export default function WorldLostEssay() {
                 <p className="indent-16">“Mixed” marriage did not alter the official power of “Negro blood” in Viola’s veins. Government constructs changed her racial status. Viola was Black in 1900, when she lived with two sisters and her mother&mdash;also Black&mdash;in a household headed by her White, German-born step-father, Ato Broninlman (fig. 6). The census would have counted her as Black even if Broninlman had been her biological father because the label signified “negro or negro descent.” (emphasis added) Blood quanta and appearance did not matter.<sup><Link href="#fn4" id="ref4" class="anchor">4</Link></sup>  The stability of her mother’s racial classification across census counts highlights the importance of perception. The census enumerator in 1910 made the decision that nothing other than “Negro blood” could account for her appearance. The transformation of Viola’s racial designation and the persistence of her mother’s classification signal variable ways that race categories invent identities they purport to merely document.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig6.jpg" alt="" className="w-[70%]"/>
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig6.jpg`} alt="" className="w-[70%]"/>
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 6. Viola Ida Lewis
                     </figcaption>
@@ -87,21 +87,21 @@ export default function WorldLostEssay() {
                 <p className="indent-16">Changes in the spouses’ racial identities at this time were concrete; however, the basis for Joseph’s designation is unclear. He and Viola no longer occupied the same census racial group as they had done in 1910. He had become White, a category he shared with his lodgers. The new classification sharply distinguished him from his predominantly Negro neighbors. It was also at odds with changes that accompanied government prohibitions on Indian immigration and the 1923 Supreme Court decision in <i>United States v. Bhagat Singh Thind</i>, which ruled that East Indians were not “free white persons” eligible for citizenship. In keeping with the legal determination that constituted the population as racially different from White American citizens, the Census Bureau created “Hindu” as a race category. Accordingly, there was no basis for making Joseph White. In contrast, the change in Viola’s classification conformed to hardening notions of difference and hierarchy that facilitated Jim Crow discrimination against people of African descent. The removal of the Mulatto category from the census made her and the Abdin children Negroes (figs. 7, 8, 9).<sup><Link href="#fn5" id="ref5" class="anchor">5</Link></sup>  The “one-drop” rule again prevailed. Black African ancestry was the factor that mattered to the state and perhaps to Banerjee in crafting “racial disguises.”</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig7.jpg" alt="" className="w-[70%]"/>
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig7.jpg`} alt="" className="w-[70%]"/>
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 7. Viola Ida Lewis.
                     </figcaption>
                 </div>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig8.jpg" alt="" className="w-[70%]"/>
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig8.jpg`} alt="" className="w-[70%]"/>
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 8. Ali Joseph Abdin, Viola’s son.
                     </figcaption>
                 </div>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/tell-me-whom-you-love/fig9.jpg" alt="" className="w-[70%]"/>
+                  <img src={`${basePath}/images/works/tell-me-whom-you-love/fig9.jpg`} alt="" className="w-[70%]"/>
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 9. Angela Abdin, Viola’s daughter.
                     </figcaption>

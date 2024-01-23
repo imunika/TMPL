@@ -17,8 +17,8 @@ export default function LoveInSyracuseEssay() {
             Love in Syracuse: Making Art Together
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/natalie_rieth.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/natalie_rieth" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Natalie Rieth</a></div>
+              <div><img src={`${basePath}/images/headshots/natalie_rieth.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/natalie_rieth" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Natalie Rieth</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3]">
@@ -36,7 +36,7 @@ export default function LoveInSyracuseEssay() {
                 <p className="indent-16">This concept was demonstrated at the <i>Love in Syracuse: Making Art Together</i> event held in February 2023 as part of Banerjee’s recent residency as the Jeannette K. Watson Distinguished Visiting Professor in the Humanities at Syracuse University. Students from the Narratio Fellowship, Syracuse community members, as well as faculty and students from Syracuse University joined Banerjee at Salt City Market in Downtown Syracuse for an afternoon filled with food, conversation, and art-making entrenched in communal love and connection.</p>
                 <br />
                 <div  className="mt-10 flex flex-col justify-center items-center">
-                  <img src="images/works/love-in-syracuse-making-art-together/fig1.jpg" alt="" />
+                  <img src={`${basePath}/images/works/love-in-syracuse-making-art-together/fig1.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 1. <i>Love in Syracuse: Making Art Together</i>, Salt City Market, Syracuse, New York, 2023.
                     </figcaption> 
@@ -49,7 +49,7 @@ export default function LoveInSyracuseEssay() {
                 <p className="indent-16">“Rope was designed to be strong,” Banerjee said. “And it needed to be strong — it made a whole industry and income for countries. I’m so excited about the technology of braiding that we’re so familiar with because it has made everything in the exchange of goods possible.”</p>
                 <br />
                 <div  className="mt-10 flex flex-col justify-center items-center">
-                  <img src="images/works/love-in-syracuse-making-art-together/fig2.jpg" alt="" />
+                  <img src={`${basePath}/images/works/love-in-syracuse-making-art-together/fig2.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 2. Rina Banerjee, Salt City Market, Syracuse, New York, 2023
                     </figcaption> 
@@ -60,7 +60,7 @@ export default function LoveInSyracuseEssay() {
                 <p className="indent-16">“We’re all sitting together, working together, building community and getting to know each other,” participant and Syracuse school teacher Angela Waithe said. “We’re all very invested in the finishing product.”</p>
                 <br />
                 <div  className="mt-10 flex flex-col justify-center items-center">
-                  <img src="images/works/love-in-syracuse-making-art-together/fig3.jpg" alt="" />
+                  <img src={`${basePath}/images/works/love-in-syracuse-making-art-together/fig3.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 3. Angela Waithe and friend, Salt City Market, Syracuse, New York, 2023
                     </figcaption> 

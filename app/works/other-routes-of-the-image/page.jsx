@@ -17,8 +17,8 @@ export default function OtherRoutesEssay() {
             Other Routes of the Image: Looking at Rina Banerjee by Way of Istanbul
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/timur_hammond.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/timur_hammond" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Timur Hammond</a></div>
+              <div><img src={`${basePath}/images/headshots/timur_hammond.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/timur_hammond" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Timur Hammond</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3]">
@@ -31,7 +31,7 @@ export default function OtherRoutesEssay() {
                     Introducing his research into the ‘image’ of American cities in the 1950s, Kevin Lynch wrote, “Looking at cities can give a special pleasure… At every instant, there is more than the eye can see, more than the ear can hear, a setting or a view waiting to be explored. Nothing is experienced by itself, but always in relation to its surroundings, the sequence of events leading up to it, the memory of past experiences… Every citizen has had long associations with some part of his city, and [their] image is soaked in memories and meanings.”<sup><Link href="#fn1" id="ref1" class="anchor">1</Link></sup>  Lynch was interested in the (in)coherence of cities’ images; a good city, he suggested, was an ‘imageable’ one, “invit[ing] the eye and the ear to greater attention and participation.”<sup><Link href="#fn2" id="ref2" class="anchor">2</Link></sup>  Lynch’s framework is not without its faults, of course, but I have often been reminded it of when returning to Istanbul for research and travel; now, reflecting on Rina Banerjee’s remarkable Take me, take me, take me… to the Palace of Love (2003), it comes to mind again (fig. 1).                
                 </p>
                 <br />
-                <img src="images/works/other-routes-of-the-image/fig1.jpg" alt="" />
+                <img src={`${basePath}/images/works/other-routes-of-the-image/fig1.jpg`} alt="" />
                 <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                 Fig. 1. Rina Banerjee, <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, 2003. Plastic, antique Anglo-Indian Bombay dark wood chair, steel and copper framework, floral picks, foam balls, cowry shells, quilting pins, red colored moss, antique stone globe, glass, synthetic fabric, shells, fake birds. Artist’s collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                 </figcaption>
@@ -40,7 +40,7 @@ export default function OtherRoutesEssay() {
                 <br />
                 <p className="indent-16">Yet this style&mdash;this image of a mosque&mdash;was not always so closely associated with the Ottoman Empire. It has as much to do with a Byzantine building, completed in 537 by the Byzantine emperor Justinian I and once the heart of Eastern Orthodox Christianity: The Hagia Sophia (fig. 2). When the Ottomans captured Constantinople in 1453, its leaders found themselves forced to develop a new architectural and monumental vocabulary, one that could place them as heirs to the city’s imperial traditions and aspirations and mark their Muslim empire as different than what came before. As the architectural historian Çiğdem Kafescioğlu described their project of making ‘Constantinople’ into ‘Istanbul,’ this project involved “the monumentalization of the city in an Ottoman idiom, through the creation of a network of significant buildings and sites… [For the empire’s rulers, the city was an image] that was to be reshaped, to become receptacle and signifier of a new political and cultural order.”<sup><Link href="#fn3" id="ref3" class="anchor">3</Link></sup>  The transformation of the Hagia Sophia into a mosque involved a number of transformations, including the building of minarets outside the building, the placement of a minbar (prayer pulpit) and mihrab (prayer niche) inside the building, the covering of the building’s mosaics, and the later addition of massive calligraphic roundels.</p>
                 <br />
-                <img src="images/works/other-routes-of-the-image/fig2.jpg" alt="" />
+                <img src={`${basePath}/images/works/other-routes-of-the-image/fig2.jpg`} alt="" />
                 <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                 Fig. 2. Mosque of St. Sophia, Constantinople, Turkey, photomechanical print: photochrom, color, between ca. 1890 and ca. 1900, Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href="http://hdl.loc.gov/loc.pnp/pp.print" target="_blank">http://hdl.loc.gov/loc.pnp/pp.print</a>
                 </figcaption>
@@ -49,7 +49,7 @@ export default function OtherRoutesEssay() {
                 <br />
                 <p className="indent-16">A reflection on the Hagia Sophia might seem an odd digression for a discussion of Rina Banerjee’s ‘Pink Taj,’ but there are reasons that thinking the two buildings in conversation is valuable and urgent. I&mdash;like many of the people who’ve encountered Banerjee’s work&mdash;have never seen the Taj Mahal in person. I know it, of course, but only as an image (fig. 3).</p>
                 <br />
-                <img src="images/works/other-routes-of-the-image/fig3.jpg" alt="" />
+                <img src={`${basePath}/images/works/other-routes-of-the-image/fig3.jpg`} alt="" />
                 <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                 Fig. 3. Taj Mahal, Agra, Photoglob Company, 1890-1910, color photochrom, Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href="http://hdl.loc.gov/loc.pnp/pp.print" target="_blank">http://hdl.loc.gov/loc.pnp/pp.print</a>
                 </figcaption>

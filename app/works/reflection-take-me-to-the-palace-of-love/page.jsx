@@ -17,8 +17,8 @@ export default function ReflectionEssay() {
               Reflection: <i>Take Me to the Palace of Love</i>
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/kate_holohan.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/kate_holohan" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Kate Holohan</a></div>
+              <div><img src={`${basePath}/images/headshots/kate_holohan.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/kate_holohan" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Kate Holohan</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3]">
@@ -36,7 +36,7 @@ export default function ReflectionEssay() {
                 <p className="indent-16">In February 2023, as we embarked on several weeks of near-daily public programs, I also was also working to engage students and faculty by directly connecting the exhibition to university curricula. I got to know Rina Banerjee’s work and professor Ray’s thinking as the show’s curator. I developed gallery activities to spur students’ engagement and scheduled and taught university class visits to the exhibition. I also planned and taught a workshop for SU faculty interested in teaching with the exhibition.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/reflection-take-me-to-the-palace-of-love/fig1.jpg" alt="" />
+                  <img src={`${basePath}/images/works/reflection-take-me-to-the-palace-of-love/fig1.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 1. Teaching Workshop, <i>Take Me to the Palace of Love</i>, Syracuse University Art Museum, January 2023.
                     </figcaption> 
@@ -45,21 +45,21 @@ export default function ReflectionEssay() {
                 <p className="indent-16">For each of the museum’s special exhibitions, I develop an art-making project that aims to bridge the gap between the eye, the mind, and the body. The idea is to make art history not just a matter of thought, but of active, bodily engagement. Rina Banerjee’s work, so rich in materials, color, texture, and ideas, posed a challenge. Its abundance&mdash;it’s too much-ness&mdash;baffled me. Could we create mini-versions of Banerjee’s already-scaled down version of the Taj Mahal? I tested different materials but couldn’t get it to work. Could we use sand or glitter to create our own worlds a la <i>A World Lost</i>? A facilities nightmare! Finally, during the middle of installation in January 2023, it hit me: we would make our own “love tokens” inspired by the plastic-wrapped Styrofoam balls at the center, the beating heart, of Banerjee’s Taj.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/reflection-take-me-to-the-palace-of-love/fig2.jpg" alt="" className="w-[70%]"/>
+                  <img src={`${basePath}/images/works/reflection-take-me-to-the-palace-of-love/fig2.jpg`} alt="" className="w-[70%]"/>
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 2. Rina Banerjee, detail, <i>A World Lost</i>, 2013. Black synthetic horns, wire, netting, lightbulbs, scale, ostrich eggs, textiles, cowrie shells, pebbles, coins, feathers, fish vertebrae, greenery, coral, glass birds, miniature human and animal figurines, plastic cups, and red thread. Syracuse University Art Museum. Artist’s Collection, New York City.
                     </figcaption>
                 </div>
                 <br />
                 <br />
-                <img src="images/works/reflection-take-me-to-the-palace-of-love/fig3.jpg" alt="" />
+                <img src={`${basePath}/images/works/reflection-take-me-to-the-palace-of-love/fig3.jpg`} alt="" />
                   <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                   Fig. 3. Rina Banerjee, detail, <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, 2003. Plastic, antique Anglo-Indian Bombay dark wood chair, steel and copper framework, floral picks, foam balls, cowry shells, quilting pins, red colored moss, antique stone globe, glass, synthetic fabric, shells, fake birds. Artist’s collection, New York City. Photograph courtesy of Syracuse University Art Museum.
                   </figcaption>
                 <br />
                 <p className="indent-16">These “eureka!” moments provided much-needed clarity and calm for me. Amidst the hectic planning and the wrangling of all the little details, there was joy and delight! These moments also occurred while looking at Banerjee’s work with students. Together we discovered the panoply of figures and features that made up the island-like floor component of <i>A World Lost</i>. And, a student helped me see a part of <i>Viola, from New Orleans…</i> that I had overlooked. The Yoruba-style mask that I had thought was Viola’s face truly was a mask: behind it was a glass head, transparent, enigmatic, nearly hidden. Together we imagined and reimagined how the world is made, what it is made of, and what it means to make a world.</p>
                 <br />
-                <img src="images/works/reflection-take-me-to-the-palace-of-love/fig4.jpg" alt="" />
+                <img src={`${basePath}/images/works/reflection-take-me-to-the-palace-of-love/fig4.jpg`} alt="" />
                   <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                   Fig. 4. Rina Banerjee, detail, <i>Viola, from New Orleans…</i>, 2017. Courtesy of the Pennsylvania Academy of the Fine Art, Philadelphia. Museum Purchase, 2017.53. Photograph courtesy of Syracuse University Art Museum.
                   </figcaption>

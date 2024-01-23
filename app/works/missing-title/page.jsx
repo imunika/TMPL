@@ -29,8 +29,8 @@ export default function InstallingPalaceLoveEssayAC() {
             Missing Title
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/melissa_yuen.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/melissa_yuen" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Melissa Yuen</a></div>
+              <div><img src={`${basePath}/images/headshots/melissa_yuen.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/melissa_yuen" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Melissa Yuen</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3] flex items-center justify-center">
@@ -53,7 +53,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 <p className="indent-16">The multitude of materials used in each sculpture create different visual qualities, allowing for multiple points of access, all of which were evident during the run of the exhibition. Students’ jaws dropped when they rounded the corner and encountered the spectacle of <i>Take me, Take me, Take me… to the Palace of Love</i> (2013), a pink Saranwrap covered reduction of the Taj Mahal, which was suspended from the ceiling. A tween spent 20 minutes poring over the painting on the floor of <i>A World Lost</i> (2013), gleefully pointing out the many whimsical details, including the Eiffel Tower, angel heads, bears, toy soldiers, and a single black feather contributed by one of Syracuse’s many crows, that Banerjee nestled among brightly colored sand (fig. 6). Faculty made connections between the artworks to their lived experiences and critical theory in the same conversation. These experiences would not be possible without the museum nor the artworks on view in the galleries.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/missing-title/fig6.jpg" alt="" />
+                  <img src={`${basePath}/images/works/missing-title/fig6.jpg`} alt="" />
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 6. Rina Banerjee, floor detail, <i>A World Lost</i>, 2013. Black synthetic horns, wire, netting, lightbulbs, scale, ostrich eggs, textiles, cowrie shells, pebbles, coins, feathers, fish vertebrae, greenery, coral, glass birds, miniature human and animal figurines, plastic cups, and red thread. Syracuse University Art Museum. Artist’s Collection, New York City.
                     </figcaption> 
@@ -62,7 +62,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 <p className="indent-16">These wide-ranging interactions with the exhibition are also borne out in the class visits and programs that occurred in the museum’s galleries, a space where different audiences (from Syracuse University and beyond) came together around tangible objects and worked through the ideas presented (fig. 7). As a curator, witnessing these conversations in the galleries is one of the most gratifying parts of my work. With each exhibition, my colleagues and I spend so much time thinking through the conceptual frameworks and installation details, while also making countless contingency plans in case arrangements go awry. Yet, what we often cannot account for are the visitors’ reactions&mdash;the joy, bewilderment, awe, and excitement&mdash;expressed in the galleries. These emotions on display in the art museum, alongside the objects that elicited them, affirm the importance of art for the academic humanity and for humanity more broadly.</p>
                 <br />
                 <div  className="flex flex-col justify-center items-center">
-                  <img src="images/works/missing-title/fig7.jpg" alt="" className="w-[70%]"/>
+                  <img src={`${basePath}/images/works/missing-title/fig7.jpg`} alt="" className="w-[70%]"/>
                     <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                     Fig. 7. <i>Love in Syracuse: Making Art Together</i>, Salt City Market, Syracuse, New York, February 2023.
                     </figcaption> 

@@ -17,13 +17,13 @@ export default function MermaidThoughtsEssay() {
               Mermaid Thoughts
             </h1>
             <div className="flex items-center">
-              <div><img src="images/headshots/jason_vartikar.png" className="p-2 mx-auto w-16 h-16" alt="" /></div>
-              <div>by <a href="/contributors/jason_vartikar" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Jason Vartikar</a></div>
+              <div><img src={`${basePath}/images/headshots/jason_vartikar.png`} className="p-2 mx-auto w-16 h-16" alt="" /></div>
+              <div>by <Link href="/contributors/jason_vartikar" className="text-black font-black hover:text-[#be3a3b] hover:no-underline hover:font-black">Jason Vartikar</Link></div>
             </div>
             <div className="text-md text-slate-700 font-light leading-7">
               <div className="mt-6 border-t border-[#d3d3d3] flex items-center justify-center">
                 <div className="mt-10 max-w-4xl">
-                  <img src="images/works/mermaid-thoughts/fig1.jpg" alt="" />
+                  <img src={`${basePath}/images/works/mermaid-thoughts/fig1.jpg`} alt="" />
                   <figcaption className="mt-3 ml-1 text-xs text-slate-600 dark:text-gray-400">
                   Rina Banerjee, <i>Viola</i>, from New Orleans…, 2017. Murano glass horns, Indian rakes, seed beads, steel, Yoruba African mask, oyster shells, cowrie shells,
                   Charlotte dolls, polyester horse hair trim, Korean silks, Indian silks, vintage Kashmir shawls,
