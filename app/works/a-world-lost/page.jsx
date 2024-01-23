@@ -4,8 +4,8 @@ import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import getConfig from 'next/config';
 
-const { publicRuntimeConfig } = getConfig();
-const basePath = publicRuntimeConfig.basePath || '';
+// const { publicRuntimeConfig } = getConfig();
+const basePath = '/TMPL'
 
 export default function WorldLostEssay() {
   return (
